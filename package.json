@@ -1,0 +1,35 @@
+{
+  "name": "ocu-backend",
+  "version": "1.0.0",
+  "description": "Backend application for online class update application. Built with Node JS and GraphQL.",
+  "main": "src/server.js",
+  "scripts": {
+    "format": "prettier -w .",
+    "start": "node ./src/server.js",
+    "dev": "nodemon --exec yarn start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BroCode21/ocu-backend.git"
+  },
+  "author": "BroCode21",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BroCode21/ocu-backend/issues"
+  },
+  "homepage": "https://github.com/BroCode21/ocu-backend#readme",
+  "dependencies": {
+    "apollo-server": "^3.1.2",
+    "dotenv": "^10.0.0",
+    "graphql": "^15.5.1",
+    "mongoose": "^5.13.7"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "nodemon": "^2.0.12",
+    "prettier": "^2.3.2"
+  }
+}
